@@ -14,11 +14,7 @@ function scuberGreetingForFeet(rideLength) {
 };
 
 function ternaryCheckCity(city) {
-  let response;
-
-  response = city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
-
-  return response;
+  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
 };
 
 function switchOnCharmFromTip(tip) {
